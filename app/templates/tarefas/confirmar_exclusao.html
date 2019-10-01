@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block conteudo %}
+<div class="card mb-3">
+        <div class="card-header">
+            Remover tarefa?
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">{{tarefa.titulo}}</h5>
+            <p class="card-body">{{tarefa.descricao}}</p>
+        </div>
+       <form method="POST">
+           {% csrf_token %}
+           <button class="btn btn-danger" type="submit">Remover</button>
+       </form>
+    </div>
+
+{% endblock conteudo %}

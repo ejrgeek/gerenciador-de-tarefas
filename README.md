@@ -1,10 +1,10 @@
 # Gerenciador de Tarefas
 
 #### Você precisa criar um banco no mysql
+##### user root
+##### pass root
 ```
-user root
-pass root
-database gerenciador_tarefas
+CREATE DATABASE gerenciador_tarefas;
 ```
 
 #### Ou você pode mudar o settings.py

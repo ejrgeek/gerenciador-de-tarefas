@@ -8,7 +8,9 @@ CREATE DATABASE gerenciador_tarefas;
 ```
 
 #### Ou você pode mudar o settings.py
+
 <hr>
+
 #### Para iniciar o projeto
 ```
 source ../venv/bin/activate
